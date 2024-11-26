@@ -50,6 +50,7 @@ export default function MotivationalQuotes() {
 }
 
 const styles = {
+  
   container: {
     textAlign: "center",
     margin: "20px",

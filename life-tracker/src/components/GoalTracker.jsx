@@ -135,6 +135,7 @@ export default function GoalTracker() {
 }
 
 const styles = {
+  
   card: {
     padding: "20px",
     margin: "10px",

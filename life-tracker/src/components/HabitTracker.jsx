@@ -35,6 +35,8 @@ export default function HabitTracker() {
 
   return (
     <div style={styles.card}>
+    
+   
       <h2>Daily Habit Tracker</h2>
       <div>
         <input
@@ -69,7 +71,9 @@ export default function HabitTracker() {
         ></div>
       </div>
       <p>Progress: {progress.toFixed(0)}%</p>
+    
     </div>
+  
   );
 }
 
@@ -129,4 +133,5 @@ const styles = {
     borderRadius: "5px",
     cursor: "pointer",
   }
+  
 };
